@@ -12,7 +12,7 @@ public class Main {
 
 class Solution {
     // not sure how to handle integer that is smaller than Integer.MIN_VALUE or grater than Integer.MAX_VALUE
-    // my assumption will still count there's integer in there
+    // my assumption is that still count there's integer in there.
     public boolean helper(String s){
         for(char c : s.toCharArray()){
             if(Character.isDigit(c))
