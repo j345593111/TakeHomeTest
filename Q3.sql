@@ -27,4 +27,4 @@ SELECT p.Name, p.Category, h.Price, h.Start_date, h.End_date
 FROM Products p
 INNER JOIN Products_price_history h
 ON p.Name=h.Name
-ORDER BY h.Start_date
+ORDER BY h.Start_date;
